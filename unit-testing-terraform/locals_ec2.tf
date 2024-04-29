@@ -18,10 +18,10 @@ locals {
         eni_route = true
       }
     }
-    qa = {
+    stage = {
       example-app = {
         region   = "eu-west-1"
-        vpc      = "arryw-qa-dublin"
+        vpc      = "arryw-stage-dublin"
         count    = 2
         az       = ["eu-west-1a", "eu-west-1b"]
         key_pair = "arryw"
@@ -29,9 +29,10 @@ locals {
       }
       example-router = {
         region    = "eu-west-1"
-        vpc       = "arryw-qa-dublin"
+        vpc       = "arryw-stage-dublin"
         count     = 1
         az        = ["eu-west-1a"]
+        ami      = "ami-0c55b159cbfafe1f0"
         key_pair  = "arryw"
         eni_route = true
       }

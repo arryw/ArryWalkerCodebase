@@ -18,3 +18,7 @@ locals {
     for ec2 in local.flattened_ec2 : ec2.indexed_key => ec2
   }
 }
+
+output "ec2_map" {
+  value = local.ec2_map
+}
