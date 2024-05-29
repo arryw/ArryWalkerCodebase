@@ -33,3 +33,12 @@ override.tf.json
 .terraformrc
 terraform.rc
 .idea/
+
+# Ignore virtual environment directories
+venv/
+ENV/
+env/
+
+# Ignore __pycache__ directories
+__pycache__/
+**/__pycache__/

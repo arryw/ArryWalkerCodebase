@@ -1,0 +1,17 @@
+[
+    "../instance-scheduler/locals_vpc.tf",
+    "../instance-scheduler/routes.tf",
+    "../instance-scheduler/README.md",
+    "../instance-scheduler/ec2.tf",
+    "../instance-scheduler/ec2-iam.tf",
+    "../instance-scheduler/vpc.tf",
+    "../instance-scheduler/flatten_vpc.tf",
+    "../instance-scheduler/subnets.tf",
+    "../instance-scheduler/flatten_ec2.tf",
+    "../instance-scheduler/eventbridge.tf",
+    "../instance-scheduler/main.tf",
+    "../instance-scheduler/flatten_routes.tf",
+    "../instance-scheduler/gateways.tf",
+    "../instance-scheduler/locals_ec2.tf",
+    "../instance-scheduler/variables.tf"
+]

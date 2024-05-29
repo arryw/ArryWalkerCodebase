@@ -1,0 +1,8 @@
+python-dotenv
+crewai
+crewai_tools
+anthropic
+langchain-anthropic
+langchain-community
+pathspec
+duckduckgo-search
