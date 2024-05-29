@@ -26,20 +26,20 @@ python main.py
 
 ## Additional Tips
 
-Always run agents and tasks in a virtual environment to prevent any potential conflicts or dependencies.
-Be mindful of the LLM limits when analysing large files or collections of files. Consider breaking down your analysis into smaller, more manageable chunks if necessary.
-Keep an eye on the output files and adjust your analysis as needed.
+- Always run agents and tasks in a virtual environment to prevent any potential conflicts or dependencies.
+- Be mindful of the LLM limits when analysing large files or collections of files. Consider breaking down your analysis into smaller, more manageable chunks if necessary.
+- Keep an eye on the output files and adjust your analysis as needed.
 
 ## Crew Members
 
 This crew consists of three agents:
 
-OrderFilesAgent: Organizes files in a suitable format for analysis.
-AnalyseFilesAgent: Extracts key information and insights from each file.
-ReadMeGeneratorAgent: Generates a comprehensive README file summarizing the analyzed files.
+- OrderFilesAgent: Organizes files in a suitable format for analysis.
+- AnalyseFilesAgent: Extracts key information and insights from each file.
+- ReadMeGeneratorAgent: Generates a comprehensive README file summarizing the analyzed files.
 
 ## Tasks
 
-order_files_task: Orders files for analysis.
-analyse_files_task: Analyzes files to extract key information and insights.
-generate_readme_task: Generates a README file summarizing the analyzed files.
+- order_files_task: Orders files for analysis.
+- analyse_files_task: Analyzes files to extract key information and insights.
+- generate_readme_task: Generates a README file summarizing the analyzed files.
